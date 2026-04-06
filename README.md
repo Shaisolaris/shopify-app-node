@@ -37,3 +37,34 @@ npm run dev
 
 ## License
 MIT
+
+## Architecture
+
+```
+.editorconfig
+.env.example
+.github/workflows/ci.yml
+.gitignore
+DEMO.md
+Dockerfile
+README.md
+package.json
+src/demo-data.ts
+src/index.ts
+src/middleware/auth.ts
+src/routes/products.ts
+src/routes/webhooks.ts
+src/services/shopify.ts
+tsconfig.json
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Open a Pull Request
+
+## License
+
+MIT
