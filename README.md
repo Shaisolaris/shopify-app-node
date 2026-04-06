@@ -1,5 +1,7 @@
 # shopify-app-node
 
+![CI](https://github.com/Shaisolaris/shopify-app-node/actions/workflows/ci.yml/badge.svg)
+
 Shopify embedded app backend with Express, TypeScript, session token authentication, Shopify Admin API service, product CRUD routes, webhook handling with HMAC verification (products/create, products/update, orders/create, app/uninstalled), and Polaris-ready frontend structure.
 
 ## API Routes
