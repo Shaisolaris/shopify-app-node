@@ -1,5 +1,17 @@
 # shopify-app-node
 
+## Quick Start
+
+```bash
+npm install
+cp .env.example .env
+# Edit .env with your Shopify app credentials from partners.shopify.com
+npm run dev
+# App runs at http://localhost:3000
+# Install on your dev store via: https://your-store.myshopify.com/admin/oauth/authorize?client_id=YOUR_API_KEY&scope=read_products,write_products&redirect_uri=http://localhost:3000/auth/callback
+```
+
+
 ![CI](https://github.com/Shaisolaris/shopify-app-node/actions/workflows/ci.yml/badge.svg)
 
 Shopify embedded app backend with Express, TypeScript, session token authentication, Shopify Admin API service, product CRUD routes, webhook handling with HMAC verification (products/create, products/update, orders/create, app/uninstalled), and Polaris-ready frontend structure.
