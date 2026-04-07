@@ -1,5 +1,8 @@
 # shopify-app-node
 
+
+Shopify app backend with Node.js, Express, OAuth authentication, webhook handling, Admin API integration, and session management.
+
 ## Quick Start
 
 ```bash
